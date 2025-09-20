@@ -58,7 +58,7 @@ Here, $x$ is the features, $y$ is the lables, $N$ is the number of training/test
 clear
 clc
 addpath(genpath('functions'));
-load data.mat %Here is your data
+load data.mat % Here is your data
 load param.mat
 test_accuracy = ConvFNN(param, x_train, x_test, y_train, y_test);
 ```
