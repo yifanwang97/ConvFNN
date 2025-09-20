@@ -22,6 +22,7 @@ Deep fuzzy neural networks have established a fundamental connection between fuz
 ## Structure:
 <img width="1453" height="774" alt="image" src="https://github.com/user-attachments/assets/66bcb337-876d-43ac-980d-894032e79fef" />
 
+
 The main structure of ConvFNN includes an input layer, a fuzzy image layer, convolutional layers, pooling layers, and an output layer. The input layer receives images as
 the input data to the entire pipeline. Then, the fuzzy image layer generates several fuzzy images, each of which corresponds to one fuzzy rule. The convolutional and pooling layers subsequently perform convolution and pooling operations on the fuzzy images, respectively. Several convolutional and pooling layers can be stacked to extract effective features for classification. Finally, the output layer predicts the class label of the input pattern based on these high-level features.
 
