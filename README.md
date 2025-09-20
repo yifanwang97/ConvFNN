@@ -43,8 +43,15 @@ The experimental results of ConvFNN are shown as follows:
 
 **How to run the code:**   
 First, prepare your datasets: x_train, y_train, y_train and y_test. Here, x is the features and y is the lables.   
-The dimension of x_train and x_test should be $N\timesD$, where $N$ is the number of training/testing patterns and $D$ is the dimension of features.   
-The dimension of y_train and y_test should be $\\times1$, where $N$ is the number of training/testing patterns. 
+| DataSets | Dimension |
+|:-------|:--------|
+|x_train|$N_trainxD$|
+|x_test|$N_testxD$|
+|y_train|N_train|
+|y_test|N_test|
+
+$N$ is the number of training/testing patterns and $D$ is the dimension of features.
+
 Second, you can use the folowing command in the MatLab:  
 ```
 clear
