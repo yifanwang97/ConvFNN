@@ -2,7 +2,7 @@
 The code for the paper "Convolutional Fuzzy Neural Networks With Random Weights for Image Classification".
 
 **Reference:**    
-Y. Wang, H. Ishibuchi, W. Pedrycz, J. Zhu, X. Cao and J. Wang, "Convolutional Fuzzy Neural Networks With Random Weights for Image Classification," IEEE Transactions on Emerging Topics in Computational Intelligence, vol. 8, no. 5, pp. 3279-3293, 2024.
+Y. Wang, H. Ishibuchi, W. Pedrycz, J. Zhu, X. Cao and J. Wang, "Convolutional Fuzzy Neural Networks With Random Weights for Image Classification," *IEEE Transactions on Emerging Topics in Computational Intelligence*, vol. 8, no. 5, pp. 3279-3293, 2024.
 
 @ARTICLE{10476629,  
   author={Wang, Yifan and Ishibuchi, Hisao and Pedrycz, Witold and Zhu, Jihua and Cao, Xiangyong and Wang, Jun},   
@@ -43,17 +43,17 @@ The experimental results of ConvFNN are shown as follows:
 
 **How to run the code:**   
 First, prepare your datasets: x_train, y_train, y_train and y_test. Here, x is the features and y is the lables.   
-The dimension of x_train and x_test should be N\\timesD, where N is the number of training/testing patterns and D is the dimension of features.   
-The dimension of y_train and y_test should be N\\times1, where N is the number of training/testing patterns. 
+The dimension of x_train and x_test should be $N\timesD$, where N is the number of training/testing patterns and D is the dimension of features.   
+The dimension of y_train and y_test should be $\\times1$, where N is the number of training/testing patterns. 
 Second, you can use the folowing command in the MatLab:  
-、、、
+···
 clear
 clc
 addpath(genpath('functions'));
 load data.mat %Here is your data
 load param.mat
 test_accuracy = ConvFNN(param, x_train, x_test, y_train, y_test);
-、、、
+···
 
 Thanks for your attention.
 
