@@ -5,3 +5,8 @@ Y. Wang, H. Ishibuchi, W. Pedrycz, J. Zhu, X. Cao and J. Wang, "Convolutional Fu
 
 This paper can be downloaded from 
 
+Introduction:
+
+
+<img width="1453" height="774" alt="image" src="https://github.com/user-attachments/assets/66bcb337-876d-43ac-980d-894032e79fef" />
+
