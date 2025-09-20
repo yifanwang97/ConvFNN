@@ -49,6 +49,7 @@ The experimental results of ConvFNN are shown as follows:
 |x_test|N_testxD|
 |y_train|N_train|
 |y_test|N_test|
+
 Here, $x$ is the features and $y$ is the lables. $N$ is the number of training/testing patterns and $D$ is the dimension of features.
 
 ### Use the folowing command in the MatLab:  
