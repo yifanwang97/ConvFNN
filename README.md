@@ -53,7 +53,7 @@ The experimental results of ConvFNN are shown as follows:
 
 Here, x is the features, y is the lables, N is the number of training/testing patterns and D is the dimension of features.
 
-### Use the folowing command in the MatLab:  
+### Use the following command in the MatLab:  
 ```
 clear
 clc
