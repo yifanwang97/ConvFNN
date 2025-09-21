@@ -44,7 +44,7 @@ The experimental results of ConvFNN are shown as follows:
 
 ## How to run the code:   
 ### Prepare your datasets: 
-| DataSets | Dimension |
+| Datasets | Dimension |
 |:-------|:--------|
 |x_train|N_trainxD|
 |x_test|N_testxD|
