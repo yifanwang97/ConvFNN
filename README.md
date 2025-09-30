@@ -11,7 +11,7 @@ Y. Wang, H. Ishibuchi, W. Pedrycz, J. Zhu, X. Cao and J. Wang, "Convolutional Fu
   year={2024},   
   volume={8},   
   number={5},   
-  pages={3279-3293},   
+  pages={3279-3293}      
 }
 
 This paper can be downloaded from https://ieeexplore.ieee.org/abstract/document/10476629.
